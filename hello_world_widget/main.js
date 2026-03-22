@@ -19,17 +19,23 @@
     }
 
      onCustomWidgetResize (width, height) {
-      this.render()
+      //this.render()
     }
 
     onCustomWidgetAfterUpdate (changedProps) {
+        this.render()
     }
 
     onCustomWidgetDestroy () {
     }
 
     render () {
-      this._root.textContent = `Hello Custom Widget Shuang clientWidth: ${this.clientWidth}, clientHeight: ${this.clientHeight}`
+      //this._root.textContent = `Hello Custom Widget Shuang clientWidth: ${this.clientWidth}, clientHeight: ${this.clientHeight}`
+      const dataBinding = this.dataBinding
+      if (!dataBinding || dataBinding.state !== 'success') {
+        return
+      }
+      this._root.textContent = JSON.stringify(dataBinding)
     }
   }
 
