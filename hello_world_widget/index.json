@@ -12,7 +12,7 @@
     {
       "kind": "main",
       "tag": "com-sap-sac-exercise-zhangshuang875-main",
-      "url": "/main.js",
+      "url": "https://raw.githubusercontent.com/zhangshuang875/sac_custom_widget/refs/heads/main/hello_world_widget/main.js",
       "integrity": "",
       "ignoreIntegrity": true
     }

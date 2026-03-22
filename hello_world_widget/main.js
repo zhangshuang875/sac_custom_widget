@@ -5,7 +5,7 @@
         <style>
         </style>
         <div id="root" style="width: 100%; height: 100%;">
-        Hello Custom Widget
+        Hello Custom Widget SZ
         </div>
       `
   class Main extends HTMLElement {
@@ -27,9 +27,9 @@
 
     onCustomWidgetDestroy () {
     }
-    
+
     render () {
-      this._root.textContent = `Hello Custom Widget clientWidth: ${this.clientWidth}, clientHeight: ${this.clientHeight}`
+      this._root.textContent = `Hello Custom Widget Shuang clientWidth: ${this.clientWidth}, clientHeight: ${this.clientHeight}`
     }
   }
 
