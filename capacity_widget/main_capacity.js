@@ -561,5 +561,5 @@
     }
   }
 
-  customElements.define('com-sap-sac-exercise-zhangshuang875-main', Main)
+  customElements.define('com-sap-sac-capacity-zhangshuang875-main', Main)
 })()
