@@ -4,15 +4,15 @@
   "license": "",
   "id": "com.sap.sac.exercise.zhangshuang875",
   "version": "1.0.0",
-  "name": "Guided Custom Widget Exercise",
-  "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAYAAABSO15qAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAzklEQVQ4jWNgoBAwkqLYOLGjguH//1RGxv+7z8yvymBgYGBgIcm2//8lGRgZlP7/Z5CDiTGRYgA2QLEBOL2gFVrPxsXDYcfAwMDw7cuPQ9dWN/4iyQBebi75vwz/dkPZagwMDLexqaOeF4wT2jcyMjL4Mfz/33tmQVUJsQYgueA/K4RmZCXFBQMfjQNvADwWGBkZHv3/z3CPgZHxOQMDAwPjv9/fGJiZ7sLZDAwM/xkZnzP8/3+PkZHhEaUWwwGjSWL7f0oMYGFgYFCmxAAACtUz95booNoAAAAASUVORK5CYII=",
+  "name": "Custom Widget Plant Work Center Capacity",
+  "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjRweCIgdmlld0JveD0iMCAtOTYwIDk2MCA5NjAiIHdpZHRoPSIyNHB4IiBmaWxsPSIjNEI3N0QxIj48cGF0aCBkPSJNNjA3LjUtMzUyLjVRNjYwLTQwNSA2NjAtNDgwdC01Mi41LTEyNy41UTU1NS02NjAgNDgwLTY2MHQtMTI3LjUgNTIuNVEzMDAtNTU1IDMwMC00ODB0NTIuNSAxMjcuNVE0MDUtMzAwIDQ4MC0zMDB0MTI3LjUtNTIuNVptLTE1Ni05OVE0NDAtNDYzIDQ0MC00ODB0MTEuNS0yOC41UTQ2My01MjAgNDgwLTUyMHQyOC41IDExLjVRNTIwLTQ5NyA1MjAtNDgwdC0xMS41IDI4LjVRNDk3LTQ0MCA0ODAtNDQwdC0yOC41LTExLjVaTTQ4MC04MHEtODMgMC0xNTYtMzEuNVQxOTctMTk3cS01NC01NC04NS41LTEyN1Q4MC00ODBxMC04MyAzMS41LTE1NlQxOTctNzYzcTU0LTU0IDEyNy04NS41VDQ4MC04ODBxMTIwIDAgMjE5IDY1LjVUODQ2LTY0MGgtOTBxLTQyLTc1LTExNi0xMTcuNVQ0ODAtODAwcS0xMzQgMC0yMjcgOTN0LTkzIDIyN3EwIDEzNCA5MyAyMjd0MjI3IDkzcTY5IDAgMTMyLTI4LjVUNzIwLTI3MHYxMTBxLTUzIDM4LTExNCA1OVQ0ODAtODBabTMyMC0xNjB2LTMyMGg4MHYzMjBoLTgwWm0xMS41IDE0OC41UTgwMC0xMDMgODAwLTEyMHQxMS41LTI4LjVRODIzLTE2MCA4NDAtMTYwdDI4LjUgMTEuNVE4ODAtMTM3IDg4MC0xMjB0LTExLjUgMjguNVE4NTctODAgODQwLTgwdC0yOC41LTExLjVaTTQ4MC00ODBaIi8+PC9zdmc+",
   "newInstancePrefix": "ExerciseCustomWidget",
-  "description": "A Guided Custom Widget Exercise",
+  "description": "Custom Widget Plant Work Center Capacity Dashboard",
   "webcomponents": [
     {
       "kind": "main",
       "tag": "com-sap-sac-exercise-zhangshuang875-main",
-      "url": "https://zhangshuang875.github.io/sac_custom_widget/hello_world_widget/main.js",
+      "url": "https://zhangshuang875.github.io/sac_custom_widget/capacity_widget/main_capacity.js",
       "integrity": "",
       "ignoreIntegrity": true
     }
