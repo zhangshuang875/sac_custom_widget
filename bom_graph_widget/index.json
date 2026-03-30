@@ -1,0 +1,48 @@
+{
+  "eula": "",
+  "vendor": "SAP",
+  "license": "",
+  "id": "com.sap.sac.exercise.zhangshuang875",
+  "version": "1.0.0",
+  "name": "Custom Widget BOM Node Graph",
+  "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjRweCIgdmlld0JveD0iMCAtOTYwIDk2MCA5NjAiIHdpZHRoPSIyNHB4IiBmaWxsPSIjNEI3N0QxIj48cGF0aCBkPSJNMTU1LTc1cS0zNS0zNS0zNS04NXQzNS04NXEzNS0zNSA4NS0zNSAxNCAwIDI2IDN0MjMgOGw1Ny03MXEtMjgtMzEtMzktNzB0LTUtNzhsLTgxLTI3cS0xNyAyNS00MyA0MHQtNTggMTVxLTUwIDAtODUtMzVUMC01ODBxMC01MCAzNS04NXQ4NS0zNXE1MCAwIDg1IDM1dDM1IDg1djhsODEgMjhxMjAtMzYgNTMuNS02MXQ3NS41LTMydi04N3EtMzktMTEtNjQuNS00Mi41VDM2MC04NDBxMC01MCAzNS04NXQ4NS0zNXE1MCAwIDg1IDM1dDM1IDg1cTAgNDItMjYgNzMuNVQ1MTAtNzI0djg3cTQyIDcgNzUuNSAzMnQ1My41IDYxbDgxLTI4di04cTAtNTAgMzUtODV0ODUtMzVxNTAgMCA4NSAzNXQzNSA4NXEwIDUwLTM1IDg1dC04NSAzNXEtMzIgMC01OC41LTE1VDczOS01MTVsLTgxIDI3cTYgMzktNSA3Ny41VDYxNC0zNDBsNTcgNzBxMTEtNSAyMy03LjV0MjYtMi41cTUwIDAgODUgMzV0MzUgODVxMCA1MC0zNSA4NXQtODUgMzVxLTUwIDAtODUtMzV0LTM1LTg1cTAtMjAgNi41LTM4LjVUNjI0LTIzMmwtNTctNzFxLTQxIDIzLTg3LjUgMjNUMzkyLTMwM2wtNTYgNzFxMTEgMTUgMTcuNSAzMy41VDM2MC0xNjBxMCA1MC0zNSA4NXQtODUgMzVxLTUwIDAtODUtMzVabS0zNS00NjVxMTcgMCAyOC41LTExLjVUMTYwLTU4MHEwLTE3LTExLjUtMjguNVQxMjAtNjIwcS0xNyAwLTI4LjUgMTEuNVQ4MC01ODBxMCAxNyAxMS41IDI4LjVUMTIwLTU0MFptMTQ4LjUgNDA4LjVRMjgwLTE0MyAyODAtMTYwdC0xMS41LTI4LjVRMjU3LTIwMCAyNDAtMjAwdC0yOC41IDExLjVRMjAwLTE3NyAyMDAtMTYwdDExLjUgMjguNVEyMjMtMTIwIDI0MC0xMjB0MjguNS0xMS41Wm0yNDAtNjgwUTUyMC04MjMgNTIwLTg0MHQtMTEuNS0yOC41UTQ5Ny04ODAgNDgwLTg4MHQtMjguNSAxMS41UTQ0MC04NTcgNDQwLTg0MHQxMS41IDI4LjVRNDYzLTgwMCA0ODAtODAwdDI4LjUtMTEuNVpNNDgwLTM2MHE0MiAwIDcxLTI5dDI5LTcxcTAtNDItMjktNzF0LTcxLTI5cS00MiAwLTcxIDI5dC0yOSA3MXEwIDQyIDI5IDcxdDcxIDI5Wm0yNjguNSAyMjguNVE3NjAtMTQzIDc2MC0xNjB0LTExLjUtMjguNVE3MzctMjAwIDcyMC0yMDB0LTI4LjUgMTEuNVE2ODAtMTc3IDY4MC0xNjB0MTEuNSAyOC41UTcwMy0xMjAgNzIwLTEyMHQyOC41LTExLjVabTEyMC00MjBRODgwLTU2MyA4ODAtNTgwdC0xMS41LTI4LjVRODU3LTYyMCA4NDAtNjIwdC0yOC41IDExLjVRODAwLTU5NyA4MDAtNTgwdDExLjUgMjguNVE4MjMtNTQwIDg0MC01NDB0MjguNS0xMS41Wk00ODAtODQwWk0xMjAtNTgwWm0zNjAgMTIwWm0zNjAtMTIwWk0yNDAtMTYwWm00ODAgMFoiLz48L3N2Zz4=",
+  "newInstancePrefix": "ExerciseCustomWidget",
+  "description": "Node Graph to show BOM Product and Components Relationships",
+  "webcomponents": [
+    {
+      "kind": "main",
+      "tag": "com-sap-sac-exercise-zhangshuang875-main",
+      "url": "https://zhangshuang875.github.io/sac_custom_widget/hello_world_widget/main.js",
+      "integrity": "",
+      "ignoreIntegrity": true
+    }
+  ],
+  "properties": {
+    "width": {
+      "type": "integer",
+      "default": 600
+    },
+    "height": {
+      "type": "integer",
+      "default": 420
+    }
+  },
+  "methods":{},
+  "events":{},
+  "dataBindings": {
+    "dataBinding": {
+      "feeds": [
+        {
+          "id": "dimensions",
+          "description": "Dimensions",
+          "type": "dimension"
+        },
+        {
+          "id": "measures",
+          "description": "Measures",
+          "type": "mainStructureMember"
+        }
+      ]
+    }
+  }
+}
